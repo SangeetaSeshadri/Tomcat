@@ -2,10 +2,23 @@
 <html>
 <head>
 	<script>
-	
+	function fun()
+		{
+			var a=document.getElementById("u").value;
+			var b=document.getElementById("p").value;
+			if(a=="sangeeta"&&b="pass")
+				{
+					alert("login successfull");
+				}
+		}
+
 	</script>
 </head>
 <body>
-<h2>Hello World!</h2>
+<form>
+		Enter name: &nbsp;<input id="u"/>
+		Enter password: &nbsp;<input id=p" type="password"/>
+		<input type="button" onclick="fun()"/>
+	</form>
 </body>
 </html>
