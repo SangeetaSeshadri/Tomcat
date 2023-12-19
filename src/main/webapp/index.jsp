@@ -16,8 +16,8 @@
 </head>
 <body>
 <form>
-		Enter name: &nbsp;<input id="u"/>
-		Enter password: &nbsp;<input id=p" type="password"/>
+		Enter name: &nbsp;<input id="u"/></br>
+		Enter password: &nbsp;<input id="p" type="password"/></br>
 		<input type="button" onclick="fun()"/>
 	</form>
 </body>
